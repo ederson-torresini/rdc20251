@@ -1,16 +1,7 @@
 <html>
   <head></head>
   <body>
-    <script>
-      function ativarGeolocalizacao() {
-        if (navigator.geolocation) {
-          navigator.geolocation.watchPosition(function (position) {
-            texto.innerHTML =
-              position.coords.latitude + ", " + position.coords.longitude;
-          });
-        }
-      }
-    </script>
+    <script type="text/javascript" src="main.js"></script>
     <button id="botao" onclick="ativarGeolocalizacao()">Geolocalizar!</button>
     <br />
     <text id="texto"></text>
