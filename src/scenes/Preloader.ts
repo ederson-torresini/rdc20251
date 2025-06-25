@@ -6,6 +6,6 @@ export class Preloader extends Scene {
   }
 
   create() {
-    this.scene.start("Map");
+    this.scene.start("Phase0");
   }
 }
